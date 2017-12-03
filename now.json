@@ -1,0 +1,10 @@
+{
+  "files": [
+    "src",
+    "index.js",
+    "settings.json"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
