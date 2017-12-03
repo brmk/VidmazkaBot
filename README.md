@@ -3,7 +3,7 @@ Bot for telegram that generates excuses in Ukrainian!
 
 ### Setup
 
-Create a file settings.json with the content:
+1. Create a file settings.json with the content:
 
 ```
 {
@@ -11,7 +11,9 @@ Create a file settings.json with the content:
 }
 ```
 
+2. `npm i`
+
 
 ### Usage
 
-1. `node index.js`
+1. `npm run start`
