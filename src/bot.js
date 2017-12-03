@@ -1,8 +1,9 @@
 // import Generator from './generator';
-// import settings from './settings';const Telegraf = require('telegraf')
+// import settings from './settings';
+const Telegraf = require('telegraf')
 
 const Generator = require('./generator')
-const settings = require('./settings')
+const settings = require('../settings')
 
 const initBot = () => {
   console.log('Initializing Bot')
