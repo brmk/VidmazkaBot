@@ -22,13 +22,17 @@ const initBot = () => {
   bot.on('inline_query', ({ inlineQuery, answerInlineQuery }) => {
     const name = inlineQuery.query;
     const excuse = Generator.generate(name);
-    return answerInlineQuery([{
+    const results = [{
       id: String(Math.random()),
       type:'article',
       title: 'Відмаза',
       description: excuse,
       message_text:excuse
-    }]);
+    }];
+    const options = {
+      cache_time: 3 //3 seconds
+    };
+    return answerInlineQuery(results, options);
   });
 
   bot.on('message', (ctx) => ctx.reply(Generator.generate(ctx.message.text)))
