@@ -1,4 +1,3 @@
-const app = express()
 // import Generator from './generator';
 // import settings from './settings';const Telegraf = require('telegraf')
 
