@@ -19,3 +19,5 @@ app.listen(app.get('port'), function() {
 })
 
 bot();
+
+module.exports = app;
