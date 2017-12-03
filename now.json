@@ -1,4 +1,7 @@
 {
+  
+  "name": "VidmazkaBot",
+
   "files": [
     "src",
     "index.js",
